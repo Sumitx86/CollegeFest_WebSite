@@ -1,0 +1,69 @@
+<style type="text/css">body, a:hover {cursor: url(http://ani.cursors-4u.net/cursors/cur-12/cur1103.ani), url(http://ani.cursors-4u.net/cursors/cur-12/cur1103.png), progress !important;}</style><a href="http://www.cursors-4u.com/cursor/2014/03/14/rainbow-pinwheel-pointer.html" target="_blank" title="Rainbow Pinwheel Pointer"><img src="http://cur.cursors-4u.net/cursor.png" border="0" alt="Rainbow Pinwheel Pointer" style="position:absolute; top: 0px; right: 0px;" /></a>
+
+<style>
+      #close#close:after{
+        content: '\D7';
+        left: 50%;
+        margin-left: 1.3em;
+        margin-top: 4px;
+        color: white;
+        color: white;
+        font-weight: bolder;
+      }
+  </style>
+  <script>
+    $(function() {
+      $('#subHeader').find('li').find('a').each(function() {
+        var url = window.location.pathname,
+        urlRegExp = new RegExp(url.replace(/\/$/, '') + "$");
+        if (urlRegExp.test(this.href.replace(/\/$/, ''))) {
+            $(this).parent().addClass('active');
+        }
+      });
+    });  
+    </script>
+<!-- Sidebar -->
+<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+  <!-- Brand and toggle get grouped for better mobile display -->
+  <div class="navbar-header">
+    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+      <span class="sr-only">Toggle navigation</span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+    </button>
+    <a class="navbar-brand" href="..\index.html">Tech Fusion</a>
+    
+  </div>
+
+  <!-- Collect the nav links, forms, and other content for toggling -->
+  <div id="subHeader1" class="collapse navbar-collapse navbar-ex1-collapse">
+      <ul  id="subHeader" class="nav navbar-nav side-nav" style="background:url('image/bg.jpg')repeat center center fixed;border-right: 1px solid darkgray; border-right: 1px solid darkgray;box-shadow: 5px -1px 8px #888888;margin-top: 1%">
+
+      <li id="4"><a href="technical events.html"><h4><b>Technical<br>Events</b></h3></a></li>
+      <li id="4"><a href="cultural events.html"><h4><b>Cultural<br>Events</b></h3></a></li>
+      <li id="4"><a href="Games1.html"><h4><b>Games</b></h3></a></li>
+
+      <li id="4"><a href="robotics.html"><h4><b>Award<br>Ceremony</b></h3></a></li>
+     <li id="4"><a href="event/registration.php"target="blank"><h4><b>Register</b></h3></a></li>
+     <li id="4"><a href="about.html"><h4><b>About</b></h3></a></li>
+ <img src="image/f.gif"></img>
+	  </ul>
+
+    <ul class="nav navbar-nav navbar-right navbar-user">
+      
+      <li onClick="nextExplore(this.id)" id="nextExplore" style="display:none" ><a href="#"><i class="fa fa-forward"></i> Next</a></li>
+      <li onClick="getExplore(this.id)" id="getHome" style="display:none"><a href="#"><i class="fa fa-home"></i> Explore</a></li>
+      <li class="dropdown user-dropdown">
+        <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-user"></i>Sumit Kumar <b class="caret"></b></a>
+        <ul class="dropdown-menu">
+          <li><a href="#"><i class="fa fa-user"></i> Profile</a></li>
+          <li><a href="#"><i class="fa fa-envelope"></i> Inbox <span class="badge">7</span></a></li>
+          <li><a href="#"><i class="fa fa-gear"></i> Settings</a></li>
+          <li class="divider"></li>
+          <li><a href="event/admin_login.php"><i class="fa fa-power-off"></i> Log in</a></li>
+        </ul>
+      </li>
+    </ul>
+  </div><!-- /.navbar-collapse -->
+</nav>
